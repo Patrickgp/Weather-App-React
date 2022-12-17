@@ -35,7 +35,7 @@ const Forecast = ({ data }) => {
                   <img
                     alt="weather"
                     className="icon-small"
-                    src={`icons/${item.weather[0].icon}.png`}
+                    src={`http://openweathermap.org/img/wn/${item.weather[0].icon}.png`}
                   />
                   <label className="day">{forecastDays[idx]}</label>
                   <label className="description">
